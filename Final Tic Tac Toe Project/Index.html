@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project Tic Tac Toe</title>
+     <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contaner">
+        <div class="title"><div><img src="img/xx.png"><img src="img/oo.png"></div>   Tic Tac Toe   <div><img src="img/oo.png"><img src="img/xx.png"></div></div>
+        <div id="hrFirst"></div>
+        <div class=mainGrid>
+                <div class="mainBox animated infinite bounce delay-2s">
+                     <div class="radioBox">
+                     <div class="oneP"><input name="players" type="radio" value="onePlayer">One Player</input></div>
+                     <div class="twoP"><input name="players" type="radio" value="twoPlayer">Two Player</input></div>
+                </div>
+                        <button class="startBtn">START</button>
+                </div>
+                     <div class="ticTacToeGrid">
+                     <div id="cell_1" class="box"></div>
+                     <div id="cell_2" class="box"></div>
+                     <div id="cell_3" class="box"></div>
+                     <div id="cell_4" class="box"></div>
+                     <div id="cell_5" class="box"></div>
+                     <div id="cell_6" class="box"></div>
+                     <div id="cell_7" class="box"></div>
+                     <div id="cell_8" class="box"></div>
+                     <div id="cell_9" class="box"></div>
+        </div>
+         <div id="hrSecond"></div>
+        <footer class="footerDiv">
+        </footer>
+    </div>
+
+
+    <script src="http://code.JQuery.com/Jquery-3.1.0.min.js"> </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
